@@ -6,4 +6,6 @@ object Driver extends App {
   val log = Logger.getLogger("Test")
   log.debug("Test logger")
   println("Hello")
+
+  new Foo().print("Hello from Foo")
 }
