@@ -7,5 +7,5 @@ object Driver extends App {
   log.debug("Test logger")
   println("Hello")
 
-  new Foo().print("Hello from Foo")
+//  new Foo().print("Hello from Foo")
 }
